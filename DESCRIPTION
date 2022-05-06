@@ -1,0 +1,66 @@
+Package: shinybayesnec
+Title: bayesnec Shiny App
+Version: 0.1.1
+Authors@R: 
+    c(person(given = "Gerard",
+             family = "Ricardo",
+             role = "aut",
+             email = "g.ricardo@uq.edu.au",
+             comment = c(ORCID = "0000-0002-7761-0806")),
+      person(given = "Rebecca",
+             family = "Fisher",
+             role = c("ctb", "cre"),
+             email = "r.fisher@aims.gov.au",
+             comment = c(ORCID = "0000-0001-5148-6731")),
+      person(given = "Diego",
+             family = "Barneche",
+             role = "ctb",
+             email = "d.barneche@aims.gov.au",
+             comment = c(ORCID = "0000-0002-4568-2362")))
+Description: Shiny application for concentration response models and estimating 
+    no effect concentrations using bayesnec.
+License: Apache License | file LICENSE
+URL: https://github.com/open-aims/shinybayesnec
+BugReports: https://github.com/open-aims/shinybayesnec/issues
+Depends: 
+    R (>= 3.5),
+    bayesnec (>= 1.0.1)
+Imports:
+    formula.tools,
+    loo,
+    extraDistr,
+    dplyr,
+    tidyr,
+    purrr,
+    tidyselect,
+    evaluate,
+    rlang,
+    DT,
+    ggplot2,
+    glue,
+    lifecycle,
+    magrittr,
+    markdown,
+    RColorBrewer,
+    readr,
+    rhandsontable,
+    shiny,
+    shinyjs,
+    stats,
+    waiter
+Suggests: 
+    rstan,
+    covr,
+    knitr,
+    rmarkdown,
+    rsconnect,
+    testthat
+VignetteBuilder: 
+    knitr
+RdMacros: 
+    lifecycle
+Encoding: UTF-8
+Language: en-US
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
