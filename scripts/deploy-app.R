@@ -9,10 +9,3 @@ rsconnect::deployApp(account = "open-aims", appName = "shinybayesnec_test",
 rsconnect::deployApp(account = "open-aims", appName = "bayesnec", 
                      forceUpdate = TRUE)
 
-# deploy to beckyfisher test site
-rsconnect::deployApp(account = "beckyfisher", appName = "shinybayesnec-dev", 
-                     forceUpdate = TRUE)
-
-# deploy to beckyfisher live site
-rsconnect::deployApp(account = "beckyfisher", appName = "shinybayesnec", 
-                     forceUpdate = TRUE)

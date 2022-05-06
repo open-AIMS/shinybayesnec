@@ -11,8 +11,8 @@ app_server <- function(input, output, session) {
 # Define server logic required to draw a histogram
 
   output$distPlot <- renderPlot({
-    data("nec_data")
-    nec_data <- nec_data %>%
+    #data("nec_data")
+    use_data <- nec.data %>%
       dplyr::mutate(
         count = as.integer(round(y * 20)),
         trials = as.integer(20),

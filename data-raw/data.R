@@ -1,6 +1,6 @@
 library(tidyverse)
 
-nec.data <- bayesnec::nec_data
+test.data <- bayesnec::nec_data
 
 pal <- RColorBrewer::brewer.pal.info
 pals <- pal[which(pal$category == "qual"), ] %>% row.names()
